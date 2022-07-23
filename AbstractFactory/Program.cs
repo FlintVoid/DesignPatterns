@@ -1,7 +1,7 @@
 ﻿using System;
 using DesignPatterns.Creational.AbstractFactory.Factory;
 
-namespace AbstractFactory
+namespace DesignPatterns.Creational.AbstractFactory
 {
     internal class Program
     {
