@@ -1,7 +1,7 @@
 ﻿using System;
 using FactoryMethod.Dialogs;
 
-namespace FactoryMethod
+namespace DesignPatterns.Creational.FactoryMethod
 {
     internal class Program
     {
@@ -20,9 +20,12 @@ namespace FactoryMethod
             Console.WriteLine(dialog.RenderWindow());
         }
 
+        /// <summary>
+        /// Read application config file
+        /// </summary>
+        /// <returns></returns>
         private static string ReadApplicationConfigFile()
         {
-            //Read application config file
             var configs = new[] { nameof(HTMLDialog), nameof(WindowsDialog) };
             return configs[new Random().Next(0, configs.Length)];
         }

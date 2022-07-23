@@ -10,10 +10,15 @@ namespace FactoryMethod.Dialogs
             okButton.OnClick(CloseDialog);
             return $"Draw Dialog with {okButton.Render()}";
         }
+        
         protected abstract Button CreateButton();
+       
+        /// <summary>
+        /// //Close dialog
+        /// </summary>
         private void CloseDialog()
         {
-            //Close dialog
+            
         }
     }
 }

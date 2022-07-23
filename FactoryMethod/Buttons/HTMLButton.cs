@@ -9,9 +9,13 @@ namespace FactoryMethod.Buttons
             return "html button";
         }
 
+        /// <summary>
+        /// Set click handler browser
+        /// </summary>
+        /// <param name="onClickAction"></param>
         public void OnClick(Action onClickAction)
         {
-            //Set click handler browser
+          
         }
     }
 }

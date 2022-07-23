@@ -9,9 +9,13 @@ namespace FactoryMethod.Buttons
             return "window style button";
         }
 
+        /// <summary>
+        ///Set native handler
+        /// </summary>
+        /// <param name="onClickAction"></param>
         public void OnClick(Action onClickAction)
         {
-            //Set native handler
+            
         }
     }
 }
