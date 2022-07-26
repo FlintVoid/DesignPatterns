@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Xml;
 
-namespace DesignPatterns.BehavioralCommand
+namespace DesignPatterns.Behavioral.Command
 {
     public class BankAccount
     {

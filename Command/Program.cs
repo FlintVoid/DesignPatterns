@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DesignPatterns.BehavioralCommand
+namespace DesignPatterns.Behavioral.Command
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
             var bankAccount = new BankAccount();
-            var commands = new List<BankAccountCommand>
+            var commands = new List<ICommand>
             {
                 new BankAccountCommand(bankAccount, BankAccountCommand.Action.Deposit, 100),
                 new BankAccountCommand(bankAccount, BankAccountCommand.Action.Withdraw, 1000),

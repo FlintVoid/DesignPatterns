@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.BehavioralCommand
+namespace DesignPatterns.Behavioral.Command
 {
     public class BankAccountCommand : ICommand
     {

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.BehavioralCommand
+﻿namespace DesignPatterns.Behavioral.Command
 {
     public interface ICommand
     {
