@@ -3,16 +3,16 @@ using DesignPatterns.Creational.AbstractFactory.Checkbox;
 
 namespace DesignPatterns.Creational.AbstractFactory.Factory
 {
-    public class MacFactory : GUIFactory
+    public class MacFactory : IFactory
     {
-        private GUIFactory _guiFactoryImplementation;
+        private IFactory _factoryImplementation;
         
-        public Button.Button CreateButton()
+        public IButton CreateButton()
         {
             return new MacButton();
         }
 
-        public Checkbox.Checkbox CreateCheckBox()
+        public ICheckbox CreateCheckBox()
         {
             return new MacCheckbox();
         }

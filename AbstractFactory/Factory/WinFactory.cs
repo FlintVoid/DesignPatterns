@@ -3,14 +3,14 @@ using DesignPatterns.Creational.AbstractFactory.Checkbox;
 
 namespace DesignPatterns.Creational.AbstractFactory.Factory
 {
-    public class WinFactory : GUIFactory
+    public class WinFactory : IFactory
     {
-        public Button.Button CreateButton()
+        public IButton CreateButton()
         {
             return new WinButton();
         }
 
-        public Checkbox.Checkbox CreateCheckBox()
+        public ICheckbox CreateCheckBox()
         {
             return new WinCheckbox();
         }

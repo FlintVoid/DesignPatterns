@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory.Checkbox
 {
-    public class WinCheckbox : Checkbox
+    public class WinCheckbox : ICheckbox
     {
         public string Paint()
         {

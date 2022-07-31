@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory.Checkbox
 {
-    public class MacCheckbox : Checkbox
+    public class MacCheckbox : ICheckbox
     {
         public string Paint()
         {

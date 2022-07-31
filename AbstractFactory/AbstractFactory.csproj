@@ -39,13 +39,13 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Button\Button.cs" />
+        <Compile Include="Button\IButton.cs" />
         <Compile Include="Button\MacButton.cs" />
         <Compile Include="Button\WinButton.cs" />
-        <Compile Include="Checkbox\Checkbox.cs" />
+        <Compile Include="Checkbox\ICheckbox.cs" />
         <Compile Include="Checkbox\MacCheckbox.cs" />
         <Compile Include="Checkbox\WinCheckbox.cs" />
-        <Compile Include="Factory\GUIFactory.cs" />
+        <Compile Include="Factory\IFactory.cs" />
         <Compile Include="Factory\MacFactory.cs" />
         <Compile Include="Factory\WinFactory.cs" />
         <Compile Include="Program.cs" />

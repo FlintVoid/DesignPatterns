@@ -5,7 +5,7 @@ namespace DesignPatterns.Creational.AbstractFactory
 {
     internal class Program
     {
-        private static GUIFactory[] _factories = new GUIFactory[] { new MacFactory(), new WinFactory() };
+        private static IFactory[] _factories = new IFactory[] { new MacFactory(), new WinFactory() };
         public static void Main(string[] args)
         {
             var factory = GetRandomFactory();
@@ -13,7 +13,7 @@ namespace DesignPatterns.Creational.AbstractFactory
             Console.WriteLine(factory.CreateCheckBox().Paint());
         }
 
-        private static GUIFactory GetRandomFactory()
+        private static IFactory GetRandomFactory()
         {
             return _factories[new Random().Next(0, _factories.Length)];
         }

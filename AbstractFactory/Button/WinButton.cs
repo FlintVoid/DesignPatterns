@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory.Button
 {
-    public class WinButton : Button
+    public class WinButton : IButton
     {
         public string Paint()
         {
