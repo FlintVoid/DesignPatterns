@@ -1,8 +1,6 @@
-﻿using System.Runtime.InteropServices;
-
-namespace DesignPatterns.Creational.Builder
+﻿namespace DesignPatterns.Creational.Builder
 {
-    public class CarManualBuilder : Builder
+    public class CarManualBuilder : IBuilder
     {
         private Manual _manual;
 
@@ -21,7 +19,7 @@ namespace DesignPatterns.Creational.Builder
             _manual.SetFeature($"Seats {count}");
         }
 
-        public void SetEngine(Engine engine)
+        public void SetEngine(IEngine engine)
         {
             _manual.SetFeature(engine.ToString());
         }

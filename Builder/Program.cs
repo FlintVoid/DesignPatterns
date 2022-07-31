@@ -6,7 +6,7 @@ namespace DesignPatterns.Creational.Builder
     {
         public static void Main(string[] args)
         {
-            var director = new Director();
+            IDirector director = new Director();
             CarBuilder builder = new CarBuilder();
             director.ConstructSportCar(builder);
             Console.WriteLine(builder.GetResult().ToString());
@@ -14,6 +14,9 @@ namespace DesignPatterns.Creational.Builder
             CarManualBuilder manualBuilder = new CarManualBuilder();
             director.ConstructSportCar(manualBuilder);
             Console.WriteLine(manualBuilder.GetResult().ToString());
+            
+            director.ConsctructClassicCar(builder);
+            Console.WriteLine(builder.GetResult().ToString());
         }
     }
 }

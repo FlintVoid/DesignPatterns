@@ -39,13 +39,14 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Builder.cs" />
+        <Compile Include="IBuilder.cs" />
         <Compile Include="Car.cs" />
         <Compile Include="CarBuilder.cs" />
         <Compile Include="CarManualBuilder.cs" />
         <Compile Include="ClassicEngine.cs" />
         <Compile Include="Director.cs" />
-        <Compile Include="Engine.cs" />
+        <Compile Include="IDirector.cs" />
+        <Compile Include="IEngine.cs" />
         <Compile Include="Manual.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

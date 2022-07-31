@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.Builder
 {
-    public class CarBuilder : Builder
+    public class CarBuilder : IBuilder
     {
         private Car _car;
 
@@ -19,7 +19,7 @@
             _car.SetFeature($"Seats {count}");
         }
 
-        public void SetEngine(Engine engine)
+        public void SetEngine(IEngine engine)
         {
             _car.SetFeature(engine.ToString());
         }

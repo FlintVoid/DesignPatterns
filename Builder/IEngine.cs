@@ -1,7 +1,6 @@
 ﻿namespace DesignPatterns.Creational.Builder
 {
-    public interface Engine
+    public interface IEngine
     {
-        
     }
 }

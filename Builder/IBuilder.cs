@@ -1,10 +1,10 @@
 ﻿namespace DesignPatterns.Creational.Builder
 {
-    public interface Builder
+    public interface IBuilder
     {
         void Reset();
         void SetSeats(int count);
-        void SetEngine(Engine engine);
+        void SetEngine(IEngine engine);
         void SetTripComputer(bool available);
         void SetGPS(bool available);
     }
