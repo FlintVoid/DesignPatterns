@@ -38,7 +38,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{0EB7D31A-134E-47B0-9546-81E2F6CE03AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snapshot", "Snapshot\Snapshot.csproj", "{455B7B33-FAAF-4E1D-87A2-3AC85E4F8617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{455B7B33-FAAF-4E1D-87A2-3AC85E4F8617}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{70774005-AB68-4E60-8277-2C6501E5FB7D}"
 EndProject
